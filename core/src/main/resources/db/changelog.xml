@@ -1,0 +1,24 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <include file="migrations/202402050000_create_uuid_ossp_extension.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240206201500_create_users_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207192000_create_roles_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207192300_create_user_roles_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207193500_seed_roles_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207194400_create_plans_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207194500_create_accounts_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240207195300_create_user_accounts_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240208190600_create_services_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240208191100_create_account_service_usages_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240208194000_create_config_templates_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240209184900_create_account_configs_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240209190100_create_quota_templates_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240209191600_create_quota_schedulers_table.sql" relativeToChangelogFile="true"/>
+    <include file="migrations/20240209192600_create_account_quotas_table.sql" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>

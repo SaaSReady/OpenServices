@@ -1,0 +1,1 @@
+INSERT INTO roles (name) VALUES ('SUPERUSER'), ('SUPPORT'), ('USER'), ('USER_ADMIN');
